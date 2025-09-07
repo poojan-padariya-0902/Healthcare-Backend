@@ -70,3 +70,9 @@ Healthcare-Backend/
    git clone https://github.com/poojan-padariya-0902/Healthcare-Backend.git
    cd Healthcare-Backend
 
+2. **Create virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # For Linux/Mac
+   venv\Scripts\activate      # For Windows
+
