@@ -141,4 +141,6 @@ DELETE /api/appointments/{id} → Delete Appointment
 👨‍💻 Author
 
 Poojan Padariya
-🔗 https://github.com/poojan-padariya-0902
+[My GitHub Profile](https://github.com/poojan-padariya-0902)
+
+
