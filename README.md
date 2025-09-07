@@ -88,3 +88,14 @@ Healthcare-Backend/
 5. **Run development server**
    ```bash
      python manage.py runserver
+
+Server will start at:
+👉 http://127.0.0.1:8000/
+
+🔑 Authentication
+
+Register: POST /api/auth/register
+
+Login: POST /api/auth/login (returns JWT token)
+
+Use Authorization: Bearer <token> in headers for secured endpoints.
