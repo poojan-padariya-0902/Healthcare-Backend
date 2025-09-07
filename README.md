@@ -37,7 +37,7 @@ This project provides secure authentication, CRUD operations, and role-based acc
 
 ## 📂 Project Structure
 
-Healthcare-Backend/
+```Healthcare-Backend/
 │── api/ # Core Django app
 │ │── migrations/ # Database migrations
 │ │── init.py
@@ -59,4 +59,5 @@ Healthcare-Backend/
 │── requirements.txt # Python dependencies
 │── manage.py # Django management script
 │── README.md # Project documentation
+
 
