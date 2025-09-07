@@ -99,3 +99,46 @@ Register: POST /api/auth/register
 Login: POST /api/auth/login (returns JWT token)
 
 Use Authorization: Bearer <token> in headers for secured endpoints.
+
+📌 API Endpoints (Sample)
+
+Patients
+
+POST /api/patients/ → Create new patient
+
+GET /api/patients/ → List all patients
+
+GET /api/patient/{id} → Get Single Record
+
+PUT /api/patients/{id}/ → Update patient
+
+DELETE /api/patients/{id}/ → Delete patient
+
+Doctors
+
+POST /api/doctors/ → Add new doctor
+
+GET /api/doctors/ → List all doctors
+
+GET /api/doctor/{id} → Get Single Record
+
+PUT /api/doctors/{id}/ → Update doctor details
+
+DELETE /api/doctors/{id}/ → Delete doctor
+
+Appointments
+
+POST /api/appointments/ → Book appointment
+
+GET /api/appointments/ → List all appointments
+
+GET /api/appointment/{id} → Get single record
+
+PUT /api/appointments/{id} → Update appointment
+
+DELETE /api/appointments/{id} → Delete Appointment
+
+👨‍💻 Author
+
+Poojan Padariya
+🔗 https://github.com/poojan-padariya-0902
