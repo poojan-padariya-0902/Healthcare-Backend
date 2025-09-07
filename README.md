@@ -67,12 +67,24 @@ Healthcare-Backend/
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/poojan-padariya-0902/Healthcare-Backend.git
-   cd Healthcare-Backend
+     git clone https://github.com/poojan-padariya-0902/Healthcare-Backend.git
+     cd Healthcare-Backend
+   ```
 
 2. **Create virtual environment**
    ```bash
-   python -m venv venv
-   source venv/bin/activate   # For Linux/Mac
-   venv\Scripts\activate      # For Windows
+     python -m venv venv
+     source venv/bin/activate   # For Linux/Mac
+     venv\Scripts\activate      # For Windows
 
+3. **Install dependencies**
+   ```bash
+     pip install -r requirements.txt
+
+4. **Apply migrations**
+   ```bash
+     python manage.py migrate
+   
+5. **Run development server**
+   ```bash
+     python manage.py runserver
