@@ -1,7 +1,7 @@
 # 🏥 Healthcare Backend
 
 A backend system for managing **patients, doctors, and appointments** built with **Django** and **Django REST Framework (DRF)**.  
-This project provides secure authentication, CRUD operations, and role-based access for healthcare management.
+This project provides secure authentication, CRUD operations for healthcare management.
 
 ---
 
@@ -10,17 +10,14 @@ This project provides secure authentication, CRUD operations, and role-based acc
 - 👤 **Authentication & Authorization**
   - User registration & login
   - JWT-based token authentication
-  - Role-based access control
 
 - 🧑‍⚕️ **Doctor & Patient Management**
   - Add, update, delete doctors & patients
   - Retrieve lists & individual records
 
-- 🔗 **Patient–Doctor Mapping**
-  - Map patients with assigned doctors
-  - Manage relationships with CRUD operations
-
 - 📅 **Appointments**
+  - Map patients with assigned doctors
+  - Manage relationships with CRUD oprations
   - Book, update, and cancel appointments
   - Track history with timestamps
 
@@ -90,7 +87,9 @@ Healthcare-Backend/
      python manage.py runserver
 
 Server will start at:
-👉 http://127.0.0.1:8000/
+  ```bash
+    http://127.0.0.1:8000/
+  ```
 
 🔑 Authentication
 
@@ -143,6 +142,7 @@ DELETE /api/appointments/{id} → Delete Appointment
 Poojan Padariya
 
 [Healthcare-Backend Repository](https://github.com/poojan-padariya-0902/Healthcare-Backend)
+
 
 
 
