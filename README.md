@@ -61,5 +61,11 @@ Healthcare-Backend/
 ── README.md # Project documentation
 
 
+---
 
+## ⚙️ Installation & Setup
 
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/poojan-padariya-0902/Healthcare-Backend.git
+   cd Healthcare-Backend
