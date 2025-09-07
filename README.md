@@ -113,35 +113,36 @@ Server will start at:
 
   - DELETE /api/patients/{id}/ → Delete patient
 
-Doctors
+- Doctors
 
-POST /api/doctors/ → Add new doctor
+  - POST /api/doctors/ → Add new doctor
 
-GET /api/doctors/ → List all doctors
+  - GET /api/doctors/ → List all doctors
 
-GET /api/doctor/{id} → Get Single Record
+  - GET /api/doctor/{id} → Get Single Record
 
-PUT /api/doctors/{id}/ → Update doctor details
+  - PUT /api/doctors/{id}/ → Update doctor details
 
-DELETE /api/doctors/{id}/ → Delete doctor
+  - DELETE /api/doctors/{id}/ → Delete doctor
 
-Appointments
+- Appointments
 
-POST /api/appointments/ → Book appointment
+  - POST /api/appointments/ → Book appointment
 
-GET /api/appointments/ → List all appointments
+  - GET /api/appointments/ → List all appointments
 
-GET /api/appointment/{id} → Get single record
+  - GET /api/appointment/{id} → Get single record
 
-PUT /api/appointments/{id} → Update appointment
+  - PUT /api/appointments/{id} → Update appointment
 
-DELETE /api/appointments/{id} → Delete Appointment
+  - DELETE /api/appointments/{id} → Delete Appointment
 
 👨‍💻 Author
 
 Poojan Padariya
 
 [Healthcare-Backend Repository](https://github.com/poojan-padariya-0902/Healthcare-Backend)
+
 
 
 
