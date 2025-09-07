@@ -38,7 +38,25 @@ This project provides secure authentication, CRUD operations, and role-based acc
 ## 📂 Project Structure
 
 Healthcare-Backend/
-│── api/ # Core app (models, serializers, views, urls)
-│── healthcare/ # Django project settings & configs
-│── requirements.txt # Project dependencies
-│── manage.py # Django entry point
+│── api/ # Core Django app
+│ │── migrations/ # Database migrations
+│ │── init.py
+│ │── admin.py # Django admin configuration
+│ │── apps.py # App configuration
+│ │── models.py # Database models (Patient, Doctor, Mapping, Appointment)
+│ │── serializers.py # DRF serializers
+│ │── views.py # API views (CRUD & business logic)
+│ │── urls.py # API routes for this app
+│ │── permissions.py # Custom permissions (if any)
+│
+│── healthcare/ # Django project settings
+│ │── init.py
+│ │── asgi.py # ASGI entry point
+│ │── settings.py # Global project settings
+│ │── urls.py # Main URL router
+│ │── wsgi.py # WSGI entry point
+│
+│── requirements.txt # Python dependencies
+│── manage.py # Django management script
+│── README.md # Project documentation
+
